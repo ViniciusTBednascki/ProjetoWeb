@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to left, #141e30, #243b55);
+}
+.form {
+    width: 40%;
+    min-width: 400px;
+    height: 600px;
+    margin: 5vh auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #BBBA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form h1 {
+    margin-top: 10%;
+}
+.form-input {
+    width: 50%;
+    height: 30px;
+    margin: 5px auto;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #DDD;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.form-input i{
+    margin-left: 10px;
+}
+.form-input input{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    width: 100%;
+    padding: 0px 10px;
+}
+.error {
+    color: #FA5858;
+}
+button.primary {
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+button.primary:active {
+    background-color: #444;
+}
+.form a {
+    margin-top: 30%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form a:hover {
+    color: #444;
+}
+.form a span {
+    padding-bottom: 4px;
+}
