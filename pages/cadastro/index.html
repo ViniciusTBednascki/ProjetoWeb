@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="../../css/baseStyle.css">
     <link rel="stylesheet" href="./style.css">
     <script type="text/javascript" src="./script.js" defer></script>
-    <title>Login</title>
+    <title>Cadastro</title>
 </head>
 <body>
     <div class="form">
-        <h1>Bem Vindo</h1>
+        <h1>Cadastro</h1>
+        <div class="form-input">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Nome">
+        </div>
         <div class="form-input">
             <i class="fas fa-envelope"></i>
             <input type="email" placeholder="Email">
@@ -19,8 +23,12 @@
             <i class="fas fa-lock"></i>
             <input type="password" placeholder="Senha">
         </div>
-        <button class="primary" onclick="login()">Logar</button>
-        <a href="../cadastro/"><span>Cadastrar-se</span></a>        
+        <div class="form-input">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Confirmar Senha">
+        </div>
+        <button class="primary" onclick="sign_up()">Cadastrar</button>
+        <a href="../login/"><span>Logar-se</span></a>
     </div>
 </body>
 </html>
