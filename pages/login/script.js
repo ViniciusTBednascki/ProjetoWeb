@@ -26,6 +26,6 @@ function login() {
     }
 
     if(filledEmail && filledPassword) {
-        window.location.href = "../feed"
+        window.location.href = "../feed.html"
     }
 }
